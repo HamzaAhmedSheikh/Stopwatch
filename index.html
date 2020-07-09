@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="./bootstrap-4.0.0-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./style.css">
     <title>Stopwatch</title>
 </head>
 <body>
-    <h3> Stopwatch    </h3>
-    
-    <div>
+
+  <div class="container">
+   <div class="row"> 
+
+    <div class="col-md-4">
+      <h3>  Stopwatch    </h3>
+    </div>
+  
+    <div class="col-md-4">
       <h1 id="min">  0 : </h1>
       <h1 id="sec">  0  </h1>
       <h1 id="msec"> 0 </h1>
     </div>
 
-     <div>
+    <div class="col-md-4">
         <button id="start" onclick="start()"> Start </button>
         <button onclick="stop()"> Stop </button>
         <button onclick="reset()"> Reset </button>
      </div>
-
+   </div>    
+  </div>
 
 
 
