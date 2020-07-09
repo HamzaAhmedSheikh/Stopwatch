@@ -27,10 +27,14 @@ function timer() {
 
 function start() {
     interval = setInterval(timer, 10)
+
+    document.getElementById("start").disabled = true
 }
 
 function stop() {
     clearInterval(interval)
+
+    document.getElementById("start").disabled = false
 }
 
 function reset() {
