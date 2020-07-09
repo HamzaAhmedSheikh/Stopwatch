@@ -32,3 +32,15 @@ function start() {
 function stop() {
     clearInterval(interval)
 }
+
+function reset() {
+    min = 0;
+    sec = 0;
+    msec = 0;
+
+    minHeading.innerHTML = min + ':';
+    secHeading.innerHTML = sec + ':';
+    msecHeading.innerHTML = msec;
+
+   stop() 
+}
