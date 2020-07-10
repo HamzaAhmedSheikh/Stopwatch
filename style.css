@@ -1,5 +1,6 @@
  body {
     text-align:  center;    
+    background-color: deepskyblue;
 }   
 
 .container {
@@ -7,20 +8,20 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: tomato;
+   background-color: #ff1d58;
    padding: 5px;
 }
 
 .heading {
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;    
-    color: green !important;
-   background-color: wheat;
-   padding: 10px;
+    color: #0049B7 !important;
+    background-color: wheat;
+    padding: 10px;
 }
 
 h1 {
-    color: #fff;
+    color: red;
     display: inline-block;    
     font-family: 'Lato', sans-serif;
     font-size: 80px;
@@ -32,9 +33,17 @@ button {
     width: 100px;
     height: 35px;
     margin: 6px;
-    color: crimson;      
+    color: crimson;  
+       
 }
 
 button:hover {
     cursor: pointer;
 } 
+
+.box {
+    border: 5px solid red;    
+    border-radius: 58px;
+    background-color:  gold;
+    margin-bottom: 5px;
+}
