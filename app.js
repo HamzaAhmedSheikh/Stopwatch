@@ -48,3 +48,12 @@ function reset() {
 
    stop() 
 }
+
+var setLaps = function() {
+    var p = document.createElement("p") ;
+    var timer = document.getElementById("min").innerText + document.getElementById("sec").innerText + document.getElementById("msec").innerText;
+    var ptext = document.createTextNode(timer);
+    p.appendChild(ptext);
+    var laps = document.getElementById("laps");
+    laps.appendChild(p);
+}

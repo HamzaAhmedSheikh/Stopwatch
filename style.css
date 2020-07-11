@@ -47,3 +47,14 @@ button:hover {
     background-color:  gold;
     margin-bottom: 5px;
 }
+
+#laps {
+    border: 0px;
+    background-color: #3a3a3a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 25px;
+    font-size: 24px;
+}
