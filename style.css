@@ -15,7 +15,7 @@
 .heading {
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;    
-    color: #0049B7 !important;
+    color: green !important;  
     background-color: wheat;
     padding: 10px;
 }
@@ -34,7 +34,7 @@ button {
     height: 35px;
     margin: 6px;
     color: crimson;  
-       
+    font-size: 20px;       
 }
 
 button:hover {
